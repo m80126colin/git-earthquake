@@ -1,16 +1,28 @@
 {
   "name": "git-earthquake",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "A plugin for git to save your code when earthquake",
   "bin": {
     "git-earthquake": "./bin/earthquake"
   },
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m80126colin/git-earthquake.git"
+  },
+  "bugs": {
+    "url": "https://github.com/m80126colin/git-earthquake/issues"
+  },
   "keywords": [
     "git",
-    "earthquake"
+    "earthquake",
+    "emergency",
+    "fire"
   ],
-  "author": "Hsu Heng Yu (a.k.a. m80126colin)",
+  "author": {
+    "name": "Hsu Heng-Yu",
+    "email": "m80126colin@gmail.com"
+  },
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.4.0",
