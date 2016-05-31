@@ -1,0 +1,19 @@
+{
+  "name": "git-earthquake",
+  "version": "0.0.1",
+  "description": "",
+  "bin": {
+    "git-earthquake": "./bin/earthquake"
+  },
+  "main": "lib/index.js",
+  "keywords": [
+    "git",
+    "earthquake"
+  ],
+  "author": "Hsu Heng Yu (a.k.a. m80126colin)",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "chalk": "^1.1.3"
+  }
+}
